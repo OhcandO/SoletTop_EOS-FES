@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0" version="29.2.3" pages="3">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0" version="29.2.3" pages="4">
   <diagram id="L4GYDyTbZt7Uz0Cyd8e1" name="Context diagram">
     <mxGraphModel dx="2058" dy="1116" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -93,6 +93,60 @@
         </mxCell>
         <mxCell id="TMcCH3mI3nGRr-tlMLgX-6" parent="1" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;" value="Module" vertex="1">
           <mxGeometry height="50" width="100" x="360" y="550" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="RXt7c-Le6yzNQTQwD88t" name="Sequence diagram">
+    <mxGraphModel dx="1118" dy="1001" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="k6UqkMTwgyMWxjBLnc_j-1" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;자재 할당 sequence&lt;/h1&gt;&lt;p&gt;태스크에 자재를 할당하는 과정에서, 총 재고 수량보다 많은 자재가 이동하는 것을 방지하기 위해 수량 확인 과정을 거침&lt;/p&gt;" vertex="1">
+          <mxGeometry height="120" width="290" x="60" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="k6UqkMTwgyMWxjBLnc_j-2" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" value="" vertex="1">
+          <mxGeometry height="300" width="20" x="160" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="k6UqkMTwgyMWxjBLnc_j-4" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlEntity;" value="" vertex="1">
+          <mxGeometry height="300" width="40" x="265" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="k6UqkMTwgyMWxjBLnc_j-5" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="120" width="10" x="280" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="k6UqkMTwgyMWxjBLnc_j-6" edge="1" parent="1" source="k6UqkMTwgyMWxjBLnc_j-2" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" target="k6UqkMTwgyMWxjBLnc_j-5" value="태스크에&lt;br&gt;자재 할당 시도">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="300" y="375" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k6UqkMTwgyMWxjBLnc_j-9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="재고 수량 확인 로직" vertex="1">
+          <mxGeometry height="30" width="60" x="260" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="k6UqkMTwgyMWxjBLnc_j-13" edge="1" parent="1" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;exitPerimeter=0;" value="재고부족시&lt;br&gt;할당 실패 반환">
+          <mxGeometry relative="1" width="60" as="geometry">
+            <mxPoint x="280" y="369.5" as="sourcePoint" />
+            <mxPoint x="169.5" y="369.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k6UqkMTwgyMWxjBLnc_j-14" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlEntity;" value="" vertex="1">
+          <mxGeometry height="300" width="40" x="414" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="k6UqkMTwgyMWxjBLnc_j-16" parent="k6UqkMTwgyMWxjBLnc_j-14" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="80" width="10" x="10" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="k6UqkMTwgyMWxjBLnc_j-15" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="자재History, Stock 관리" vertex="1">
+          <mxGeometry height="30" width="86" x="391" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="k6UqkMTwgyMWxjBLnc_j-17" edge="1" parent="1" source="k6UqkMTwgyMWxjBLnc_j-4" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" target="k6UqkMTwgyMWxjBLnc_j-16" value="재고 충분시&lt;br&gt;자재이력, 재고 변경시도">
+          <mxGeometry relative="1" x="0.0824" y="15" as="geometry">
+            <mxPoint x="1" as="offset" />
+            <mxPoint x="320" y="415" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k6UqkMTwgyMWxjBLnc_j-18" edge="1" parent="1" source="k6UqkMTwgyMWxjBLnc_j-16" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" target="k6UqkMTwgyMWxjBLnc_j-2" value="태스크 자재 할당 성공 반환">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="485" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
