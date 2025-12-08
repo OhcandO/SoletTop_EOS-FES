@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0" version="29.2.3" pages="4">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0" version="29.2.4" pages="5">
   <diagram id="L4GYDyTbZt7Uz0Cyd8e1" name="Context diagram">
     <mxGraphModel dx="2058" dy="1116" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -41,39 +41,39 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Container diagram" id="YQNubd1MFnxU8DLO4JOc">
-    <mxGraphModel dx="2058" dy="1116" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1337" dy="1001" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="cOCbHqHPHrPA0L8cQJ2r-1" parent="1" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" value="Server" vertex="1">
-          <mxGeometry height="410" width="275" x="139" y="360" as="geometry" />
+          <mxGeometry height="410" width="275" x="90" y="70" as="geometry" />
         </mxCell>
         <mxCell id="cOCbHqHPHrPA0L8cQJ2r-5" edge="1" parent="1" source="cOCbHqHPHrPA0L8cQJ2r-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="cOCbHqHPHrPA0L8cQJ2r-4" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="cOCbHqHPHrPA0L8cQJ2r-2" parent="1" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" value="&lt;div style=&quot;text-align: center;&quot;&gt;프로젝트 관리&lt;/div&gt;&lt;span style=&quot;text-align: center;&quot;&gt;Front-End&lt;/span&gt;" vertex="1">
-          <mxGeometry height="70" width="110" x="174" y="405" as="geometry" />
+          <mxGeometry height="70" width="110" x="125" y="115" as="geometry" />
         </mxCell>
         <mxCell id="cOCbHqHPHrPA0L8cQJ2r-6" edge="1" parent="1" source="cOCbHqHPHrPA0L8cQJ2r-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="cOCbHqHPHrPA0L8cQJ2r-4" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="cOCbHqHPHrPA0L8cQJ2r-3" parent="1" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" value="&lt;div style=&quot;text-align: center;&quot;&gt;자재 관리&lt;/div&gt;&lt;span style=&quot;text-align: center;&quot;&gt;Front-End&lt;/span&gt;" vertex="1">
-          <mxGeometry height="70" width="81" x="303.5" y="405" as="geometry" />
+          <mxGeometry height="70" width="81" x="254.5" y="115" as="geometry" />
         </mxCell>
         <mxCell id="cOCbHqHPHrPA0L8cQJ2r-8" edge="1" parent="1" source="cOCbHqHPHrPA0L8cQJ2r-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="cOCbHqHPHrPA0L8cQJ2r-7" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="cOCbHqHPHrPA0L8cQJ2r-4" parent="1" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" value="API Back End Server" vertex="1">
-          <mxGeometry height="80" width="160" x="200" y="550" as="geometry" />
+          <mxGeometry height="80" width="160" x="151" y="260" as="geometry" />
         </mxCell>
         <mxCell id="cOCbHqHPHrPA0L8cQJ2r-7" parent="1" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" value="Database" vertex="1">
-          <mxGeometry height="60" width="70" x="245" y="670" as="geometry" />
+          <mxGeometry height="60" width="70" x="196" y="380" as="geometry" />
         </mxCell>
         <mxCell id="cOCbHqHPHrPA0L8cQJ2r-10" edge="1" parent="1" source="cOCbHqHPHrPA0L8cQJ2r-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" target="cOCbHqHPHrPA0L8cQJ2r-4" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="cOCbHqHPHrPA0L8cQJ2r-9" parent="1" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;dashed=1;dashPattern=8 8;" value="HRD system" vertex="1">
-          <mxGeometry height="160" width="180" x="505" y="510" as="geometry" />
+          <mxGeometry height="160" width="180" x="456" y="220" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -147,6 +147,62 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="320" y="485" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="ClO316nyu8QukoSI5vOj" name="주요 개념도">
+    <mxGraphModel dx="1337" dy="1001" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ojdab_RN9oq8SHx7G7Go-1" parent="1" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" value="프로젝트&amp;nbsp;" vertex="1">
+          <mxGeometry height="680" width="520" x="120" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="ojdab_RN9oq8SHx7G7Go-2" edge="1" parent="1" source="ojdab_RN9oq8SHx7G7Go-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=75;entryDy=270;entryPerimeter=0;exitX=0;exitY=0;exitDx=110;exitDy=75;exitPerimeter=0;" target="ojdab_RN9oq8SHx7G7Go-4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ojdab_RN9oq8SHx7G7Go-3" parent="1" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" value="태스크(부모)" vertex="1">
+          <mxGeometry height="110" width="140" x="140" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="ojdab_RN9oq8SHx7G7Go-4" parent="1" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" value="태스크(자식)" vertex="1">
+          <mxGeometry height="140" width="270" x="230" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="ojdab_RN9oq8SHx7G7Go-5" parent="1" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" value="자재1" vertex="1">
+          <mxGeometry height="60" width="80" x="260" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="ojdab_RN9oq8SHx7G7Go-6" parent="1" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" value="자재2" vertex="1">
+          <mxGeometry height="60" width="50" x="350" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="ojdab_RN9oq8SHx7G7Go-7" parent="1" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" value="자재2" vertex="1">
+          <mxGeometry height="60" width="50" x="390" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="ojdab_RN9oq8SHx7G7Go-8" parent="1" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" value="태스크(자식)" vertex="1">
+          <mxGeometry height="140" width="250" x="230" y="760" as="geometry" />
+        </mxCell>
+        <mxCell id="ojdab_RN9oq8SHx7G7Go-9" parent="1" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" value="자재3" vertex="1">
+          <mxGeometry height="60" width="50" x="260" y="810" as="geometry" />
+        </mxCell>
+        <mxCell id="ojdab_RN9oq8SHx7G7Go-10" parent="1" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" value="자재4" vertex="1">
+          <mxGeometry height="60" width="50" x="330" y="810" as="geometry" />
+        </mxCell>
+        <mxCell id="ojdab_RN9oq8SHx7G7Go-11" parent="1" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" value="자재5" vertex="1">
+          <mxGeometry height="60" width="50" x="400" y="810" as="geometry" />
+        </mxCell>
+        <mxCell id="ojdab_RN9oq8SHx7G7Go-12" edge="1" parent="1" source="ojdab_RN9oq8SHx7G7Go-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=110;exitDy=75;exitPerimeter=0;entryX=0;entryY=0;entryDx=75;entryDy=250;entryPerimeter=0;" target="ojdab_RN9oq8SHx7G7Go-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ojdab_RN9oq8SHx7G7Go-13" parent="1" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" value="태스크(손자)" vertex="1">
+          <mxGeometry height="100" width="180" x="394" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="ojdab_RN9oq8SHx7G7Go-14" edge="1" parent="1" source="ojdab_RN9oq8SHx7G7Go-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=140;exitDy=140;exitPerimeter=0;entryX=0;entryY=0;entryDx=45;entryDy=180;entryPerimeter=0;" target="ojdab_RN9oq8SHx7G7Go-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ojdab_RN9oq8SHx7G7Go-15" parent="1" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" value="조립품1" vertex="1">
+          <mxGeometry height="50" width="80" x="440" y="670" as="geometry" />
+        </mxCell>
+        <mxCell id="ojdab_RN9oq8SHx7G7Go-17" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;프로젝트, 태스크, 자재 구성 개념&lt;/h1&gt;&lt;p&gt;프로젝트는 개별 사업으로 관리시스템에서 다루는 가장 큰 엔티티&amp;nbsp;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;태크스는 프로젝트 및 상위 태스크에만 속할 수 있는 작업단위. 상태 및 시간이 지정되어 있고 Gantt 차트 등의 핵심 요소로 사용&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;자재는 태스크에만 속할 수 있음. 자재의 스케쥴이 필요한 경우, 그를 포함하는 태스크를 보는 것으로 태스크 범위를 표현할 수 있음. 가령, 납품받은 자재1 및 자재2를 사용해 조립품 1을 만드는 작업은 아래처럼 표현할 수 있음. 그러면 납품 진행상황 및 일정을 태스크로 관리가능하고, 조립하는 일정 또한 태스크로 관리할 수 있게 됨&lt;/span&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="170" width="470" x="40" y="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
